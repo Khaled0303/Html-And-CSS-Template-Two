@@ -453,12 +453,6 @@ html{
         flex-basis: 50%;
     }
 }
-@media (max-width: 767px){
-    .portfolio .images-container .box{
-        flex-basis: 90%;
-        margin: 0 auto 5px;
-    }
-}
 
 .portfolio .images-container .box:hover .caption{
     bottom: 0;
@@ -466,6 +460,15 @@ html{
 .portfolio .images-container .box img{
     width: 100%;
     height: 100%;
+}
+@media (max-width: 767px){
+    .portfolio .images-container .box{
+        flex-basis: 90%;
+        margin: 0 auto 5px;
+    }
+    .portfolio .images-container .box img{
+        height: 150px;
+    }
 }
 .portfolio .images-container .box .caption{
     text-align: center;
